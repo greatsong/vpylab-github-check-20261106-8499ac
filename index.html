@@ -763,7 +763,7 @@
     progress.style.width = '80%';
 
     // micropip으로 필요한 패키지 자동 설치
-    const code = decodeURIComponent(escape(atob('c3BoZXJlKGNvbG9yPWNvbG9yLmJsdWUsIHJhZGl1cz0wLjYpCm5vdGUoIkM0IiwgMC4xKQpwcmludCgiVlBZTEFCX0dJVEhVQl9CIik=')));
+    const code = decodeURIComponent(escape(atob('c3BoZXJlKGNvbG9yPWNvbG9yLnllbGxvdywgcmFkaXVzPTAuNikKbm90ZSgiQzQiLCAwLjEpCnByaW50KCJWUFlMQUJfR0lUSFVCX0EiKQ==')));
     const needsPackages = [];
     if (/import\s+numpy|from\s+numpy/.test(code)) needsPackages.push('numpy');
     if (/import\s+matplotlib|from\s+matplotlib/.test(code)) needsPackages.push('matplotlib');
