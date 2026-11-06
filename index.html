@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' https://cdn.jsdelivr.net https://unpkg.com blob:; style-src 'unsafe-inline'; connect-src https://cdn.jsdelivr.net https://unpkg.com https://pypi.org https://files.pythonhosted.org blob:; img-src blob: data:; font-src https://cdn.jsdelivr.net; worker-src blob:;">
-  <title>VPyLab GitHub 검증 작품 — VPyLab</title>
+  <title>두 계정 협업 검증 — VPyLab</title>
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body { background: #0d1117; color: #e6edf3; font-family: -apple-system, BlinkMacSystemFont, sans-serif; overflow: hidden; }
@@ -24,7 +24,7 @@
     <div style="font-size:14px">Python 엔진 로딩 중...</div>
     <div class="bar"><div class="fill" id="progress" style="width:0%"></div></div>
   </div>
-  <div id="info">VPyLab GitHub 검증 작품 · <a href="https://github.com/greatsong/vpylab-github-check-20261106-8499ac" target="_blank">GitHub</a> · <a href="https://vpylab.vercel.app/sandbox?repo=greatsong%2Fvpylab-github-check-20261106-8499ac&amp;autorun=1" target="_blank">VPyLab에서 열기</a></div>
+  <div id="info">두 계정 협업 검증 · <a href="https://github.com/greatsong/vpylab-github-check-20261106-8499ac" target="_blank">GitHub</a> · <a href="https://vpylab.vercel.app/sandbox?repo=greatsong%2Fvpylab-github-check-20261106-8499ac&amp;autorun=1" target="_blank">VPyLab에서 열기</a></div>
   <div id="viewport"></div>
   <div id="console"></div>
 
@@ -803,7 +803,7 @@
     progress.style.width = '80%';
 
     // micropip으로 필요한 패키지 자동 설치
-    const code = decodeURIComponent(escape(atob('ZnJvbSB2cHl0aG9uIGltcG9ydCAqCnNwaGVyZShjb2xvcj1jb2xvci55ZWxsb3csIHJhZGl1cz0wLjYpCuydjO2RnCgi64+EIiwgMC4xKQpwcmludCgiVlBZTEFCX0dJVEhVQl9BIik=')));
+    const code = decodeURIComponent(escape(atob('ZnJvbSB2cHl0aG9uIGltcG9ydCAqCnNwaGVyZShjb2xvcj1jb2xvci5ibHVlLCByYWRpdXM9MC42KQrsnYztkZwoIuuPhCIsIDAuMSkKcHJpbnQoIlZQWUxBQl9HSVRIVUJfQiIp')));
     const needsPackages = [];
     if (/import\s+numpy|from\s+numpy/.test(code)) needsPackages.push('numpy');
     if (/import\s+matplotlib|from\s+matplotlib/.test(code)) needsPackages.push('matplotlib');
